@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(68, 92, 118);
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.pdf{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.top_title{
+    text-align: center;
+    font-size: 30px;
+}
+.container_about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2.about_me{
+    text-align: center;
+    font-size: 25px;
+}
+p.about_me{
+    font-size: 20px;
+    text-align: center;
+}
+.nav-button {
+    background-color: #55a9a1; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-button:hover {
+    background-color: #2e3d44;
+}
+.content-wrapper{
+    
+    max-width: 800px; /* Control the width of the box */
+    margin: 50px auto; /* Center the box on the page */
+    padding: 20px; /* Add some padding inside the box */
+    background-color: rgba(255, 255, 255, 0.8); /* Tinted white background with transparency */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a lifted effect */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Optional border for a defined edge */
+    
+}
+h5 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 5px; /* Add a small bottom margin */
+}
+.university-image {
+    display: block; /* Make the image a block element */
+    margin: 20px auto; /* Center the image with margin on top and bottom */
+    max-width: 40%; /* Responsive image: scale down to fit the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}
