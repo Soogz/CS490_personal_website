@@ -45,12 +45,10 @@ p.about_me{
     margin: 8px 4px;
     cursor: pointer;
     border-radius: 12px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
+    transition: background-color 0.3s box shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
-.nav-button:hover {
-    background-color: #2e3d44;
-}
+
 .content-wrapper{
     position: relative;
     max-width: 800px; /* Control the width of the box */
@@ -84,7 +82,12 @@ h5 {
     top: 10px;
     left: 10px;
     font-weight: bold;
+    transition: background-color 0.3s box shadow 0.3s ease, transform 0.3s ease;
 }
-.back-link:hover{
+
+.back-link:hover, .nav-button:hover{
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    transform: translateY(-3px);
     background-color: #2e3d44;
+
 }
