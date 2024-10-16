@@ -52,7 +52,7 @@ p.about_me{
     background-color: #2e3d44;
 }
 .content-wrapper{
-    
+    position: relative;
     max-width: 800px; /* Control the width of the box */
     margin: 50px auto; /* Center the box on the page */
     padding: 20px; /* Add some padding inside the box */
@@ -76,13 +76,13 @@ h5 {
 .back-link{
     display: inline-block;
     padding: 10px 15px;
-    background-color: #55a9a1;
+    background-color: #55a9a1; 
     color: white;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 13px;
     position: absolute;
-    top: 65px;
-    left: 350px;
+    top: 10px;
+    left: 10px;
     font-weight: bold;
 }
 .back-link:hover{
