@@ -73,3 +73,18 @@ h5 {
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Optional: rounded corners */
 }
+.back-link{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #55a9a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+}
+.back-link:hover{
+    background-color: #2e3d44;
+}
